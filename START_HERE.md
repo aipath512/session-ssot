@@ -18,3 +18,7 @@ Canonical repository: https://github.com/aipath512/session-ssot
 ## Roles
 
 User approves priorities and changes; assistant fetches context, explains actions, and verifies any commits. This is a manual GitHub-based continuity protocol, not a Cloudflare SSOT v1.5 implementation.
+
+## Mandatory v1.6 file annotation rule
+
+Before creating or editing eligible text source files, read `FILE_HEADER_POLICY.md`. The active session ID must be inserted as a language-compatible comment at the earliest safe line in file content, never as a filename prefix. Respect JSON/binary/mandatory first-line exceptions. This is currently a manual assistant workflow, not an installed GitHub Action.
