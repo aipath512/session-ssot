@@ -1,0 +1,31 @@
+{
+  "schema": "SESSION-SSOT-LITE/1.0",
+  "registry_status": "PROVISIONAL",
+  "authority": "GitHub repository commit history (manual)",
+  "current_session": "0008C",
+  "initialized_at": "2026-10-23T07:34:52.140Z",
+  "sessions": [
+    {
+      "id": "0007H",
+      "family_number": 7,
+      "role": "H",
+      "status": "FROZEN",
+      "editable": false,
+      "frozen_at": "2026-10-23T07:34:52.140Z"
+    },
+    {
+      "id": "0008C",
+      "family_number": 8,
+      "role": "C",
+      "status": "ACTIVE",
+      "editable": true,
+      "created_at": "2026-10-23T07:34:52.140Z",
+      "predecessor": "0007H"
+    }
+  ],
+  "limitations": [
+    "Timestamps record registry initialization, not independently proven historical session creation",
+    "No automatic Cloudflare synchronization",
+    "Not SESSION SSOT v1.5 P01-P18 implementation"
+  ]
+}
