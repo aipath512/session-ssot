@@ -1,0 +1,16 @@
+# SESSION SSOT: 0008C
+name = "session-ssot-header"
+main = "src/index.js"
+compatibility_date = "2026-10-23"
+workers_dev = true
+
+[vars]
+ENABLE_BODY_INJECTION = "false"
+MAX_TRANSFORM_BYTES = "262144"
+
+# REQUIRED BEFORE DEPLOY:
+# Add an UPSTREAM service binding to the existing origin Worker.
+# [[services]]
+# binding = "UPSTREAM"
+# service = "EXISTING_ORIGIN_WORKER_NAME"
+# Do not configure a route on top of an existing Worker without mapping upstream.
