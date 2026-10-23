@@ -36,3 +36,10 @@ Markdown: `<!-- SESSION SSOT: 0008C -->`
 ## Automation status
 
 This rule is documented, not automatically enforced on arbitrary direct GitHub uploads. Enforcing it for all GitHub commits requires a separate configured workflow (GitHub Action or pre-commit hook), testing and authorization. ChatGPT uploads do not trigger automatic repository changes.
+
+## Effective date and rollout decision
+
+Effective date: 2026-10-23 (user-authorized policy adoption).
+Scope immediately: eligible new files created or modified by assistant workflows in authorized AiVenture repositories. Active session ID is read from session-ssot.json at each operation.
+Existing files: inventory and proposed backfill only, no automatic mass rewrite, historical reattribution, or deployment without separate approval.
+Central Worker + GitHub webhook/App: preferred future enforcement architecture, NOT deployed. GitHub Actions fallback also NOT deployed. No claim of automatic GitHub interception.
